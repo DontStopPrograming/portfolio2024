@@ -1,0 +1,20 @@
+.about__info span {
+    font-size: 15px;
+    
+}
+
+.about__info h3 {
+    font-size: 1.5rem;
+    
+}
+
+
+@media (max-width: 768px) {
+    .about__info span {
+        font-size: 1rem;
+    }
+    
+    .about__info h3 {
+        font-size: 1.5rem;
+    }
+}

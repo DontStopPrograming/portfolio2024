@@ -6,15 +6,18 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
+  /* paragraph  p */
+  --paragraph: #ffffff;
 
   /* text color */
   --text-color: #111111;
 
   /* title */
-  --title-color: #8f0000;
+  --title-color: 
 
   /* container color */
-  --container-color: #fccdcd;
+  --container-color: 
 
   /* title color dark */
   --title-color-dark: #111111;
@@ -30,7 +33,7 @@
 
   /* Font Size */
   --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
+  --h-font-size: 3rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -57,6 +60,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  /* body color */
+  --body-color: #ffffff;
 }
 
 /* Responsive typography */
@@ -83,29 +89,45 @@ input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  background: linear-gradient(rgb(0, 0, 0), rgb(4, 128, 128));
 }
 
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  
+}
+
+span, label, div {
+  color: var(--paragraph);
+  
 }
 
 h1,h2,h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  
+  background: linear-gradient(rgb(255, 142, 142), rgb(255, 0, 0));
+  color: transparent;
+  display: inline;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 ul {
   list-style: none;
+  color: red;
 }
 
 a {
   text-decoration: none;
+  color: var(--paragraph);
 }
 
 button {
   cursor: pointer;
   border: none;
   outline: none;
+  
 }
 
 img {
@@ -120,9 +142,16 @@ img {
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
+  font-size: var(--h-font-size);
   color: var(--title-color);
+
+  background: linear-gradient(rgb(131, 139, 255), rgb(65, 93, 255));
+  color: transparent;
+  display: inline;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
+
 
 .section__subtitle {
   display: block;
@@ -151,12 +180,13 @@ img {
 .button {
   display: flex;
   justify-content: center;
-  background-color: var(--title-color);
-  color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
   border: 1px solid #ffffff;
+
+  background: #111111;
+  color: #ffffff;
   
 } .button svg {
   width: 20px;
@@ -175,6 +205,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  
 }
 
 /* ---- BREAKPOINTS */

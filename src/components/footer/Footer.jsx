@@ -5,9 +5,8 @@ export const Footer = () => {
     <>
      <footer className = 'footer'>
         <div className = 'footer__container container'>
-            <h1 className = 'footer__title'>
-                
-
+            <h3 className = 'footer__title'>
+            
             <ul className = 'footer__list'>
                 <li>
                     <a href = '#about' className = 'footer__link'> About </a>    
@@ -47,7 +46,7 @@ export const Footer = () => {
                 &#169; All rights reserved 
             </span>   
 
-            </h1>
+            </h3>
         </div>
      </footer>   
     </>

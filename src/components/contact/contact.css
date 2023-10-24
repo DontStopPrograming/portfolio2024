@@ -104,7 +104,7 @@
     left: 1.25rem;
     font-size: var(--smaller-font-size);
     padding: 0.25rem;
-    background-color: var(--body-color);
+    
     z-index: 10;
 }
 

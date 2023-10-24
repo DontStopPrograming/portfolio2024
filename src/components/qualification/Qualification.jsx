@@ -2,7 +2,7 @@ import '../qualification/qualification.css';
 import { useState } from 'react';
 
 export const Qualification = () => {
-  const [activeTab, setActiveTab] = useState('education'); // Inicialmente muestra la información de "Education"
+  const [activeTab, setActiveTab] = useState('education'); 
 
   const toggleTab = (tab) => {
     setActiveTab(tab);
@@ -27,7 +27,7 @@ export const Qualification = () => {
 
           <div
             className={`qualification__button button--flex ${
-              activeTab === 'experience' ? 'qualification__active' : ''
+              activeTab === 'experience' ? 'qualification__active'  : ''
             }`}
             onClick={() => toggleTab('experience')}
           >
@@ -44,11 +44,12 @@ export const Qualification = () => {
                   <h3 className="qualification__title">Technical Informatic</h3>
                   <span className="qualification__subtitle">Perú</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                    
+                    <i className="uil uil-calendar-alt"></i>  2022 - Institute Amauta
                   </div>
                 </div>
 
-               
+                
               </div>
 
               </div>
@@ -58,10 +59,10 @@ export const Qualification = () => {
             <div className="qualification__content">
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">This is my experience</h3>
-                  <span className="qualification__subtitle">Another Place</span>
+                  <h3 className="qualification__title"> Currently </h3>
+                  <span className="qualification__subtitle"> I find myself in the search of new customers <br /> to further develop in this field</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 20XX - 20XX
+                    <i className="uil uil-calendar-alt"></i> 2023 - FreeLance
                   </div>
                 </div>
 

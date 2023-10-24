@@ -7,7 +7,7 @@ import { Infor } from './Infor'
 export const About = () => {
   return (
     <>
-    <section className = 'aboute section' id = 'about'>
+    <section className = 'about section' id = 'about'>
         <h2 className = 'section__title'> About me </h2>
         <span className = 'section__subtitle'> My introduction </span>
 

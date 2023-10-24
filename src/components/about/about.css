@@ -17,11 +17,18 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
-    padding: 1rem 1.25rem;
+    padding: 10px;
+
+    border: 1px solid transparent;
+    border-image-slice: 10;
+    border-image: linear-gradient(rgb(119, 0, 255), rgb(0, 0, 0)) 1;
+    
+} 
+
+ .aoubt__info .about__box h3, span {
+    padding: 20px;
 }
 
 .about__icon {
@@ -33,6 +40,7 @@
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    color: red;    
 }
 
 .about__subtitle {
@@ -40,8 +48,10 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
+    padding: 0 2rem 0 0;
     margin-bottom: var(--mb-2-5);
+    font-size: large;
+    text-align: right;
 }
 
 @media (max-width: 992px) {
@@ -55,7 +65,7 @@
     }
 
     .about__box {
-        padding: 0.75rem 0.5rem;
+        padding: 1rem;
     }
 
     .about__data {

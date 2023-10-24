@@ -14,11 +14,12 @@
 
 .footer__title {
     text-align: center;
-    margin-bottom: var(--mb-2);
+    margin-left: 0;
 }
 
 .footer__link {
     color: var(--title-color);
+    overflow: hidden;
 }
 
 .footer__list {
@@ -44,7 +45,7 @@
 }
 
 .footer__social-link:hover {
-    backgorund-color: var(--title-color-dark);
+    background-color: var(--title-color-dark);
 }
 
 .footer__copy {

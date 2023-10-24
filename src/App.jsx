@@ -14,14 +14,14 @@ const App = () => {
       
       <Header />
       <main className = 'main'>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Contact />
-        <Footer />
-        <ScrollUp />
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Qualification />
+      <Contact />
+      <Footer />
+      <ScrollUp />
       </main>
     </>
   )
