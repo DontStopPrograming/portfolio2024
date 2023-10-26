@@ -39,7 +39,7 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  --tiny-font-size: 12px;
 
   /* Font Weight */
 
@@ -107,20 +107,18 @@ h1,h2,h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   
-  background: linear-gradient(rgb(255, 142, 142), rgb(255, 0, 0));
-  color: transparent;
-  display: inline;
-  background-clip: text;
-  -webkit-background-clip: text;
+  color:rgb(255, 107, 107);
+  
 }
 ul {
   list-style: none;
-  color: red;
+  color: rgb(111, 0, 255);
 }
 
 a {
   text-decoration: none;
   color: var(--paragraph);
+  
 }
 
 button {

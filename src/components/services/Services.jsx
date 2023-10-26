@@ -12,8 +12,7 @@ export const Services = () => {
     )
 
   return (
-    <>
-     <section className = 'services section' id = 'services'>
+    <section className = 'services section' id = 'services'>
         <h2 className = 'section__title'> Services </h2>
         <span className = 'section_subtitle'> What I offer</span>
 
@@ -231,6 +230,6 @@ export const Services = () => {
 
             </div>
      </section>   
-    </>
+    
   )
 }

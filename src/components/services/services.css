@@ -8,10 +8,13 @@
 
 .services__content {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
     top: 20px;
     padding: 50px;
+
+    border-radius: 0.75rem;
+
+    border: 0.5px solid rgb(0, 0, 0);
 }
 
 .services__icon {

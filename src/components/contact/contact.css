@@ -32,8 +32,8 @@
 
 .contact__card {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 4rem;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2rem;
     border-radius: 0.75rem;
     text-align: center;
 }
@@ -46,7 +46,7 @@
 
 .contact__card-title,
 .contact__card-data {
-    font-size: var(--small-font-size);
+    font-size: 1.2rem;
 }
 
 .contact__card-title {
@@ -102,7 +102,7 @@
     position: absolute;
     top: -0.75rem;
     left: 1.25rem;
-    font-size: var(--smaller-font-size);
+    font-size: 1.2rem;
     padding: 0.25rem;
     
     z-index: 10;
