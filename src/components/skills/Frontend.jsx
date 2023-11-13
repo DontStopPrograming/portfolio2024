@@ -1,8 +1,7 @@
 
 export const Frontend = () => {
   return (
-    <>
-        <div className = 'skills__content'>
+    <div className = 'skills__content'>
             <h3 className = 'skills__title'> Frontend developer </h3>
 
             <div className = 'skills__box'>
@@ -88,6 +87,5 @@ export const Frontend = () => {
 
             </div>
         </div>
-    </>
-  )
+    )
 }

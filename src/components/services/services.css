@@ -8,13 +8,13 @@
 
 .services__content {
     position: relative;
-    background-color: var(--container-color);
+    background-color: #111111;
     top: 20px;
     padding: 50px;
 
     border-radius: 0.75rem;
-
-    border: 0.5px solid rgb(0, 0, 0);
+    border: 0.5px solid rgb(142, 255, 148);
+    
 }
 
 .services__icon {
@@ -64,6 +64,7 @@
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    
 }
 
 .services__modal-close {
@@ -71,34 +72,60 @@
     top: 1.5rem;
     right: 1.5rem;
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: #111111;
     cursor: pointer;
 }
 
 .services__modal-content {
+    background-color: #ffffff;
+
     width: 500px;
     position: relative;
-    background-color: var(--container-color);
+    /* background-color: var(--container-color); */
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
+    
 }
 
+.webPage {
+    background-image: url('/src/assets/webDesign.png');
+    background-size: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.uxUi {
+    background-image: url('/src/assets/uxui.png');
+    background-size: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.appWeb {
+    background-image: url('/src/assets/webDevelopment.png');
+    background-size: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
 
 .services__modal-title,
 .services__modal-description {
     text-align: center;    
+    color: rgb(196, 117, 248);
 }
 
 .services__modal-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
+    
 }
 
 .services__modal-description {
     font-size: var(--small-font-size);
-    padding: 0 3.5rem;
-    margin-bottom: var(--mb-2);
+    padding: 0 1rem;
+    margin-bottom: var(--mb-1);
 }
 
 .services__modal-services {
@@ -138,6 +165,7 @@
     .services__container {
         grid-template-columns: repeat(3, 218px);
     }
+    
 }
 
 @media (max-width: 768px){
@@ -161,11 +189,11 @@
 
 @media (max-width: 567px){
   .services__modal-content {
-    padding: 4.5rem 1.5rem 2.5rem;
+    padding: 17px;
   }
 
   .services__modal-description {
-    padding: 0;
+    padding: 17px;
   }
 }
 

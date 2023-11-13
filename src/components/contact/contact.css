@@ -31,11 +31,12 @@
 }
 
 .contact__card {
-    background-color: var(--container-color);
-    border: 1px solid rgb(0, 0, 0);
+    background: #111111;
     padding: 2rem;
+    height: 200px;
     border-radius: 0.75rem;
     text-align: center;
+    border: 0.5px solid rgb(142, 255, 148);
 }
 
 .contact__card-icon {
@@ -81,7 +82,8 @@
 .contact__form-div {
     position: relative;
     margin-bottom: var(--mb-2);
-    height: 4rem;
+    height: 1rem;
+    padding: 20px;
 }
 
 .contact__form-input {
@@ -89,7 +91,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     background: none;
     color: var(--text-color);
     outline: none;
@@ -109,7 +111,8 @@
 }
 
 .contact__form-area {
-    height: 11rem;
+    height: 300px;
+    
 }
 
 .contact__form-area textarea {

@@ -18,7 +18,7 @@ export const About = () => {
                 <p className = 'about__description'> 
                 I live in Peru in the capital of Lima, Peru has a variety of climates and that is great.
                 My approach to technology began with video games, from there I was very interested in how video games were built based on hardware and software.
-                Graduating with Thecnical Informatic in 2021, These days, I am looking for new job opportunities in the technology field in order to add value.
+                I graduated with Thecnical Informatic in 2021, These days, I am looking for new job opportunities in the technology field in order to add value.
                 </p>
 
                 <a download = '' href= {CV} className = 'button button--flex'>

@@ -19,16 +19,16 @@
 .about__box {
     border-radius: 0.75rem;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 
     border: 1px solid transparent;
     border-image-slice: 10;
-    border-image: linear-gradient(rgb(119, 0, 255), rgb(0, 0, 0)) 1;
+    border-image: linear-gradient(rgb(142, 255, 148), rgb(169, 148, 255)) 1;
     
 } 
 
  .about__info .about__box h3, span {
-    padding: 20px;
+    padding: 0;
 }
 
 .about__icon {
@@ -40,11 +40,13 @@
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
-    color: red;    
+    color: rgb(169, 148, 255);
 }
 
 .about__subtitle {
     font-size: var(--tiny-font-size);
+    font-weight: 2000;
+    color: #a3ffb7;
 }
 
 .about__description {

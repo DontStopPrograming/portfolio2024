@@ -30,7 +30,7 @@ export const Services = () => {
 
             <div className = {toggleState === 1 ? 'services__modal active-modal' : 'services__modal'} >
                 
-                <div className = 'services__modal-content'>
+                <div className = 'services__modal-content webPage'>
                     <i onClick = {() => setToggleState(0)} className = 'uil uil-times services__modal-close'> </i>
 
                     <h3 className = 'services__modal-title'> </h3>
@@ -45,7 +45,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Diseño responsivo para proporcionar una experiencia optima
+                                {/* Diseño responsivo para proporcionar una experiencia optima */}
+                                Responsive design to provide an optimal experience 
                             </p>
                         </li>
 
@@ -53,7 +54,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Navegacion clara que permite encontrar la informacion que buscan
+                                {/* Navegacion clara que permite encontrar la informacion que buscan */}
+                                Clear navigation
                             </p>
                         </li>
 
@@ -61,7 +63,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Contenido relevante y atractivo
+                                {/* Contenido relevante y atractivo */}
+                                Relevant and engaging content
                             </p>
                         </li>
 
@@ -69,7 +72,7 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                I position your company brand.
+                                I position your company brand
                             </p>
                         </li>
 
@@ -77,7 +80,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Seguridad y proteccion de datos
+                                {/* Seguridad y proteccion de datos */}
+                                Security and data protection
                             </p>
                         </li>
 
@@ -100,7 +104,7 @@ export const Services = () => {
             </span>    
 
             <div className = {toggleState === 2 ? 'services__modal active-modal' : 'services__modal'}>
-                <div className = 'services__modal-content'>
+                <div className = 'services__modal-content uxUi'>
                     <i onClick = {() => setToggleState(0)} className = 'uil uil-times services__modal-close'> </i>
 
                     <h3 className = 'services__modal-title'> </h3>
@@ -115,7 +119,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Diseño visual atractivo
+                                {/* Diseño visual atractivo */}
+                                Attractive visual design
                             </p>
                         </li>
 
@@ -123,7 +128,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Usabilidad y experiencia del usuario
+                                {/* Usabilidad y experiencia del usuario */}
+                                Usability and user experience
                             </p>
                         </li>
 
@@ -131,7 +137,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Adaptabilidad a multitples dispositivos
+                                {/* Adaptabilidad a multitples dispositivos */}
+                                Adaptability to multiple devices
                             </p>
                         </li>
 
@@ -147,7 +154,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Optimizacion de SEO para busquedas
+                                {/* Optimizacion de SEO para busquedas */}
+                                SEO optimization for search engines
                             </p>
                         </li>
 
@@ -171,7 +179,7 @@ export const Services = () => {
 
 
             <div className = {toggleState === 3 ? 'services__modal active-modal' : 'services__modal'}>
-                <div className = 'services__modal-content'>
+                <div className = 'services__modal-content appWeb'>
                     <i onClick = {() => setToggleState(0)} className = 'uil uil-times services__modal-close'> </i>
 
                     <h3 className = 'services__modal-title'> </h3>
@@ -186,7 +194,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Interfaz de usuario amigable
+                                {/* Interfaz de usuario amigable */}
+                                User friendly interface
                             </p>
                         </li>
 
@@ -194,7 +203,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Seguridad de datos
+                                {/* Seguridad de datos */}
+                                Data security
                             </p>
                         </li>
 
@@ -202,7 +212,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Rendimiento optimo, tiempos de carga
+                                {/* Rendimiento optimo, tiempos de carga */}
+                                Optimal performance, loading times
                             </p>
                         </li>
 
@@ -210,7 +221,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Actualizaciones y mejoras
+                                {/* Actualizaciones y mejoras */}
+                                Upgrades and improvements
                             </p>
                         </li>
 
@@ -218,7 +230,8 @@ export const Services = () => {
                             <i className = 'uil uil-check-circle services__modal-icon'>
                             </i>
                             <p className = 'services__modal-info'> 
-                                Funcionalidad completa
+                                {/* Funcionalidad completa */}
+                                Full functionality
                             </p>
                         </li>
 

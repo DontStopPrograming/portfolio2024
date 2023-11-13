@@ -1,6 +1,7 @@
 import './App.css'
 import { Header } from './components/header/Header'
 import { Home } from './components/home/Home'
+import { Portfolio } from './components/portfolio/Portfolio'
 import { About } from './components/about/about'
 import { Skills} from './components/skills/Skills'
 import { Services } from './components/services/Services'
@@ -15,6 +16,7 @@ const App = () => {
       <Header />
       <main className = 'main'>
       <Home />
+      <Portfolio />
       <About />
       <Skills />
       <Services />

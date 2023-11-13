@@ -5,11 +5,11 @@
 }
 
 .skills__content {
-    background-color: var(--container-color);
+    background: #111111;
     padding: 3rem;
     border-radius: 0.75rem;
 
-    border: 0.5px solid rgb(0, 0, 0);
+    border: 0.5px solid rgb(142, 255, 148)
     
 }
 

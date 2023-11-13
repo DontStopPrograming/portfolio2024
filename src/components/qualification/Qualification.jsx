@@ -41,11 +41,20 @@ export const Qualification = () => {
             <div className="qualification__content">
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Technical Informatic</h3>
+                  <h3 className="qualification__title">TECHNICAL INFORMATIC</h3>
                   <span className="qualification__subtitle">Perú</span>
                   <div className="qualification__calendar">
                     
                     <i className="uil uil-calendar-alt"></i>  2022 - Institute Amauta
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className = 'qualification__title'> LANGUAGES </h3>
+                  <span className = 'qualification__subtitle'> English Level B1 </span>
+                  <span className = 'qualification__subtitle'> Spanish Level Native </span>
+                  <div>
+
                   </div>
                 </div>
 
@@ -59,7 +68,7 @@ export const Qualification = () => {
             <div className="qualification__content">
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title"> Currently </h3>
+                  <h3 className="qualification__title"> CURRENTLY </h3>
                   <span className="qualification__subtitle"> I find myself in the search of new customers <br /> to further develop in this field</span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> 2023 - FreeLance
