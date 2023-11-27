@@ -19,11 +19,11 @@
 .about__box {
     border-radius: 0.75rem;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 
-    border: 1px solid transparent;
+    /* border: 1px solid transparent;
     border-image-slice: 10;
-    border-image: linear-gradient(rgb(142, 255, 148), rgb(169, 148, 255)) 1;
+    border-image: linear-gradient(rgb(142, 255, 148), rgb(169, 148, 255)) 1; */
     
 } 
 
@@ -67,7 +67,7 @@
     }
 
     .about__box {
-        padding: 1rem;
+        padding: 0;
     }
 
     .about__data {
@@ -79,8 +79,9 @@
     }
 
     .about__description {
-        padding: 0 5rem;
+        padding: 20px;
         margin-bottom: 2rem;
+        text-align: left;
     }
 }
 
