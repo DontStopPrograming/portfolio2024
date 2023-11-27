@@ -18,7 +18,7 @@
 
 .about__box {
     border-radius: 0.75rem;
-    text-align: center;
+    text-align: left;
     /* padding: 20px; */
 
     /* border: 1px solid transparent;
@@ -75,11 +75,11 @@
     }
 
     .about__info {
-        justify-content: center;
+        justify-content: left;
     }
 
     .about__description {
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 2rem;
         text-align: left;
     }
