@@ -50,7 +50,25 @@ export const Qualification = () => {
                 </div>
 
                 <div>
-                  <h3 className = 'qualification__title'> LANGUAGES </h3>
+                  <h3 className="qualification__title"> WEB LAYOUT AND PROGRAMING </h3>
+                  <span className="qualification__subtitle"> </span>
+                  <div className="qualification__calendar">
+                    
+                    <i className="uil uil-calendar-alt"></i>  2022 - FreeCodeCamp
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title"> WEB DEVELOPMENT  </h3>
+                  <span className="qualification__subtitle">  </span>
+                  <div className="qualification__calendar">
+                    
+                    <i className="uil uil-calendar-alt"></i>  2022 -  Other Sources
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className = 'qualification__title'> LANGUAJES </h3>
                   <span className = 'qualification__subtitle'> English Level B1 </span>
                   <span className = 'qualification__subtitle'> Spanish Level Native </span>
                   <div>
@@ -61,7 +79,7 @@ export const Qualification = () => {
                 
               </div>
 
-              </div>
+            </div>
           )}
 
           {activeTab === 'experience' && (

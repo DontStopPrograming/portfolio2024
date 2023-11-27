@@ -2,7 +2,7 @@ import './footer.css'
 
 export const Footer = () => {
   return (
-    <>
+    
      <footer className = 'footer'>
         <div className = 'footer__container container'>
             <h3 className = 'footer__title'>
@@ -49,6 +49,6 @@ export const Footer = () => {
             </h3>
         </div>
      </footer>   
-    </>
+    
   ) 
 }

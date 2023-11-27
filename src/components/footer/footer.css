@@ -18,13 +18,16 @@
 }
 
 .footer__link {
-    color: var(--title-color);
+    font-size: 2rem;
+    
+    color: #111111;
     overflow: hidden;
 }
 
 .footer__list {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: right;
     column-gap: 1.5rem;
     margin-bottom: var(--mb-2);
 }

@@ -32,7 +32,17 @@ export const Frontend = () => {
                         <h3 className = 'skills__name'> JAVASCRIPT </h3>        
                         <span className = 'skills__level'> Intermediate</span>
                     </div>
-                    </div>          
+                    </div>   
+
+                    
+                    <div className = 'skills_data'>
+                    <i className ='bx bx-badge-check' ></i>
+                    
+                    <div>
+                        <h3 className = 'skills__name'> PYTHON </h3>        
+                        <span className = 'skills__level'> Intermediate</span>
+                    </div>
+                    </div>        
                 </div>
 
                 {/* Framework or library */}

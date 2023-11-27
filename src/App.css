@@ -87,7 +87,8 @@ input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: linear-gradient(rgb(0, 0, 0), rgb(4, 128, 128));
+  background: linear-gradient(rgb(0, 0, 0), rgb(58, 4, 128));
+  background: linear-gradient(rgb(0, 0, 0), rgb(58, 38, 150));
 }
 
 body {
@@ -142,6 +143,7 @@ img {
   color: var(--title-color);
 
   background: linear-gradient(rgb(131, 139, 255), rgb(65, 93, 255));
+  background: linear-gradient(rgb(255, 255, 255), rgb(65, 255, 106));
   color: transparent;
   display: inline;
   background-clip: text;

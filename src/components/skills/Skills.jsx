@@ -1,5 +1,5 @@
-
 import './skills.css'
+import { OtherTechnologies } from './OtherTechnologies'
 import { Frontend } from './Frontend'
 import { Backend} from './Backend'
 
@@ -13,6 +13,7 @@ export const Skills = () => {
         <div className = 'skills__container container grid'> 
             <Frontend />
             <Backend />
+            <OtherTechnologies />
         </div>
     </section>
     </>
