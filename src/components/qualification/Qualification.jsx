@@ -22,7 +22,7 @@ export const Qualification = () => {
             onClick={() => toggleTab('education')}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
+            <p> Education</p>
           </div>
 
           <div
@@ -32,7 +32,7 @@ export const Qualification = () => {
             onClick={() => toggleTab('experience')}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            <p> Experience</p>
           </div>
         </div>
 
