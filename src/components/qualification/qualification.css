@@ -95,6 +95,7 @@
 @media (max-width: 992px){
     .qualification__container {
         width: auto;
+        padding: 20px;
         margin-left: auto;
         margin-right: auto;
     }
