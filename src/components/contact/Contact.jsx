@@ -16,6 +16,8 @@ export const Contact = () => {
         )
       .then((result) => {
           console.log(result.text);
+          form.current.reset()
+          window.location.href = '/'
       }, (error) => {
           console.log(error.text);
       });
@@ -81,9 +83,13 @@ export const Contact = () => {
                     {/* <button type = 'submit' value = 'send' className = 'button button--flex'>
                         Send
                     </button> */}
-                    <a href= '' className = 'button button--flex'>
+                    {/* <a href= '' className = 'button button--flex'>
                         Send
-                    </a>
+                    </a> */}
+
+                <button type="submit" className="button button--flex">
+                    Send
+                </button>
                 </form>
 
                       
