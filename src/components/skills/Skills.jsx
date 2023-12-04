@@ -1,7 +1,9 @@
 import './skills.css'
 import { OtherTechnologies } from './OtherTechnologies'
 import { Frontend } from './Frontend'
-import { Backend} from './Backend'
+import { Backend } from './Backend'
+import { Languages } from './Languages'
+
 
 export const Skills = () => {
   return (
@@ -13,6 +15,7 @@ export const Skills = () => {
         <div className = 'skills__container container grid'> 
             <Frontend />
             <Backend />
+            <Languages />
             <OtherTechnologies />
         </div>
     </section>

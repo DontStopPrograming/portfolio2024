@@ -9,7 +9,10 @@
     padding: 3rem;
     border-radius: 0.75rem;
 
-    border: 0.5px solid rgb(142, 255, 148)
+    /* border: 0.5px solid rgb(142, 255, 148); */
+    border: 2px solid rgb(91, 107, 253);
+    
+    box-shadow: 0 0 15px 0 rgb(91, 107, 253);
     
 }
 

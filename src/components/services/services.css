@@ -9,18 +9,21 @@
 .services__content {
     position: relative;
     background-color: #111111;
+    height: 200px;
     top: 20px;
     padding: 50px;
 
     border-radius: 0.75rem;
-    border: 0.5px solid rgb(142, 255, 148);
-    
+    border: 0.5px solid rgb(167, 142, 255);
+
+    box-shadow: 0 0 15px 0 rgb(91, 107, 253);
+
 }
 
 .services__icon {
     display: block;
     font-size: 2rem;
-    color: var(--title-color);
+    color: rgb(153, 91, 253);
     margin-bottom: var(--mb-1);
 }
 
@@ -37,6 +40,9 @@
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+
+    color: rgba(48, 245, 107, 0.89);
+    
     
 }
 
@@ -184,6 +190,7 @@
 
     .services__content {
         padding: 20px 50px;
+        
     }
 }
 

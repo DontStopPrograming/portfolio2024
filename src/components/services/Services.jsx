@@ -16,7 +16,7 @@ export const Services = () => {
         <h2 className = 'section__title'> Services </h2>
         <span className = 'section_subtitle'> What I offer</span>
 
-        <div className = 'container grid'>
+        <div className = 'services__container grid'>
             <div className = 'services__content'>
             <div>
                 <i className = 'uil uil-web-grid services__icon'> </i>

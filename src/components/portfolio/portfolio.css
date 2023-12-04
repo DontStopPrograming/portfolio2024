@@ -7,12 +7,14 @@
 
 .portfolio__box {
     flex: 1;
-    border: 2px solid green;
+    
     text-align: center;
     width: 100%;
     height: 400px;
     padding: 20px;
     box-sizing: border-box;
+
+    box-shadow: 0 0 10px 0 rgb(91, 107, 253);
     
 }
 

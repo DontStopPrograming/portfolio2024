@@ -22,6 +22,7 @@
     row-gap: 1rem;
     grid-template-columns: 300px;
     
+    
 }
 
 .contact__form {
@@ -36,7 +37,9 @@
     height: 200px;
     border-radius: 0.75rem;
     text-align: center;
-    border: 0.5px solid rgb(142, 255, 148);
+    
+
+    box-shadow: 0 0 15px 0 rgb(142, 168, 255);
 }
 
 .contact__card-icon {
@@ -60,7 +63,7 @@
 }
 
 .contact__button {
-    color: var(--text-color);
+    color: rgba(48, 245, 107, 0.89);
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
@@ -91,12 +94,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(0, 255, 21, 0.3);
     background: none;
     color: var(--text-color);
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
+
     z-index: 1;
 }
 

@@ -11,10 +11,10 @@
   --paragraph: #ffffff;
 
   /* text color */
-  --text-color: rgb(155, 119, 255);
+  --text-color: 
 
   /* title */
-  --title-color: 
+  --title-color: rgba(255, 0, 0, 0.445);
 
   
   /* title color dark */
@@ -87,7 +87,6 @@ input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: linear-gradient(rgb(0, 0, 0), rgb(58, 4, 128));
   background: linear-gradient(rgb(0, 0, 0), rgb(58, 38, 150));
 }
 
@@ -103,10 +102,13 @@ span, label, div {
 }
 
 h1,h2,h3 {
-  color: var(--title-color);
+  color: rgb(91, 107, 253);
   font-weight: var(--font-semi-bold);
-  
-  color:rgb(255, 107, 107);
+
+  background: linear-gradient(rgb(164, 131, 255), rgb(122, 65, 255));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
   
 }
 ul {
@@ -126,6 +128,7 @@ button {
   outline: none;
   
 }
+
 
 img {
   max-width: 100%;
@@ -160,6 +163,7 @@ img {
 .section__title,
 .section__subtitle {
   text-align: center;
+
 }
 
 /* ---- LAYOUT */
@@ -185,15 +189,19 @@ img {
 
   background: #111111;
   color: #ffffff;
+
+  box-shadow: 0 0 10px 0 rgb(91, 107, 253);
   
 } .button svg {
   width: 20px;
   height: 20px;
 }
 
+
 .button:hover {
   background-color: var(--title-color-dark);
   border: var(--border);
+  color: rgba(48, 245, 107, 0.89);
 }
 
 .button__icon {
