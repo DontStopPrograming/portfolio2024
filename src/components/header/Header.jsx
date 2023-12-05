@@ -72,7 +72,7 @@ export const Header = () => {
                 {Toggle ? 
                     <i className = 'uil uil-times nav__close'> </i>
                      : 
-                    <i className = 'uil uil-apps'> </i>
+                    <i className = 'uil uil-apps'> </i> 
                 }
             </div>
         </nav>

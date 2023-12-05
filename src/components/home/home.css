@@ -32,6 +32,11 @@
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
     color: rgb(255, 255, 255);
+
+    background: linear-gradient(rgb(133, 131, 255), rgb(68, 65, 255));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .home__hand {

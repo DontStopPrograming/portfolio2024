@@ -90,11 +90,6 @@ textarea {
   background: linear-gradient(rgb(0, 0, 0), rgb(58, 38, 150));
 }
 
-body {
-  background-color: var(--body-color);
-  color: var(--text-color);
-  
-}
 
 span, label, div {
   color: var(--paragraph);
@@ -106,6 +101,8 @@ h1,h2,h3 {
   font-weight: var(--font-semi-bold);
 
   background: linear-gradient(rgb(164, 131, 255), rgb(122, 65, 255));
+
+  background: linear-gradient(rgb(133, 131, 255), rgb(68, 65, 255));
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;

@@ -1,10 +1,11 @@
 import './footer.css'
+import dev from '../../assets/dev.png'
 
 export const Footer = () => {
   return (
     
      <footer className = 'footer'>
-        <div className = 'footer__container container'>
+        <div className = 'footer__container'>
             <h3 className = 'footer__title'>
             
             <ul className = 'footer__list'>
@@ -28,9 +29,13 @@ export const Footer = () => {
                     <a href = '#qualification' className = 'footer__link'> Qualification </a>    
                 </li>
 
+                <li>
+                    <a href = '#contact' className = 'footer__link'> Contact </a>    
+                </li>
+
             </ul>
 
-            <div className = 'footer__social'>
+            {/* <div className = 'footer__social'>
 
                 <a 
                     href = 'https://www.instagram.com/'
@@ -40,11 +45,15 @@ export const Footer = () => {
                     <i className = 'bx bxl-facebook'> </i>
 
                 </a>
-            </div>
+            </div> */}
 
             <span className = 'footer__copy'>
                 &#169; All rights reserved 
             </span>   
+
+            <div className = 'footer__logo'>
+                <img src= {dev} alt="" />
+            </div>
 
             </h3>
         </div>
