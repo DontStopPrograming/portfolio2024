@@ -148,11 +148,24 @@
     }
 }
 
+/* FOR SMALL DEVICES */
+@media (max-width: 992px){
+    .nav__menu {
+        padding: 2rem 0.25rem 4rem;
+        left: -10px;
+    }
+
+    .nav__list {
+        column-gap: 0;
+    }
+}
+
 
 /* FOR SMALL DEVICES */
 @media (max-width: 350px){
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
+        
     }
 
     .nav__list {
