@@ -1,5 +1,5 @@
 import './social.css'
-import CV from '../../assets/curriculum.pdf'
+import CV from '../../assets/docWebDev.pdf'
 import imgCisco from '/src/assets/cisco.svg'
 import imgGit from '/src/assets/github.svg'
 import imgResume from '/src/assets/file.png'
