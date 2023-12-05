@@ -12,19 +12,19 @@ export const Portfolio = () => {
                     {/* <div className = 'portfolio__image'> <img src = {pruebaImg}  alt= 'react' /> </div> */}
                     <div className = 'portfolio__image'>  </div>
                     <div className = 'portfolio__title'> <h3> This is the name of project</h3> </div>
-                    <div className = 'portfolio__description'> <span> This is small description about the project, Its specificallity or short intro </span> </div>
+                    <div className = 'portfolio__description'> <span>  </span> </div>
                 </div>
 
                 <div className = 'portfolio__box box__photo__second'>
                 <div className = 'portfolio__image'>  </div>
                     <div className = 'portfolio__title'> <h3> This is the name of project</h3> </div>
-                    <div className = 'portfolio__description'> <span> This is small description about the project, Its specificallity or short intro </span> </div>
+                    <div className = 'portfolio__description'> <span> </span> </div>
                 </div>
 
                 <div className = 'portfolio__box box__photo__three'>
                 <div className = 'portfolio__image'>  </div>
                     <div className = 'portfolio__title'> <h3> This is the name of project</h3> </div>
-                    <div className = 'portfolio__description'> <span> This is small description about the project, Its specificallity or short intro </span> </div>
+                    <div className = 'portfolio__description'> <span> </span> </div>
                 </div>
         </div>
         

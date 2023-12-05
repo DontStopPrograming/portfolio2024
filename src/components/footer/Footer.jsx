@@ -48,7 +48,7 @@ export const Footer = () => {
             </div> */}
 
             <span className = 'footer__copy'>
-                &#169; All rights reserved 
+                &#169; All rights reserved { new Date().getFullYear()}
             </span>   
 
             <div className = 'footer__logo'>
