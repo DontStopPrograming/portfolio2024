@@ -35,7 +35,7 @@ export const Services = () => {
 
                     <h3 className = 'services__modal-title'> </h3>
                     <p className = 'services__modal-description'> 
-                        Services with one year of experience. 
+                        
                         I always aim to offer quality work to my clients.
                     </p>
 
@@ -109,7 +109,7 @@ export const Services = () => {
 
                     <h3 className = 'services__modal-title'> </h3>
                     <p className = 'services__modal-description'> 
-                        Services with one year of experience. 
+                        
                         I always aim to offer quality work to my clients.
                     </p>
 
@@ -184,7 +184,7 @@ export const Services = () => {
 
                     <h3 className = 'services__modal-title'> </h3>
                     <p className = 'services__modal-description'> 
-                        Services with one year of experience. 
+                        
                         I always aim to offer quality work to my clients.
                     </p>
 
