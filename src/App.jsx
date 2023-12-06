@@ -1,4 +1,6 @@
 import './App.css'
+import {IntlProvider } from 'react-intl'
+
 import { Header } from './components/header/Header'
 import { Home } from './components/home/Home'
 import { Portfolio } from './components/portfolio/Portfolio'
@@ -10,8 +12,10 @@ import { Contact } from './components/contact/Contact'
 import { Footer } from './components/footer/Footer'
 import { ScrollUp } from './components/scrollup/ScrollUp'
 const App = () => {
+  const locale = 'en'
   return (
-    <>
+    <IntlProvider locale = {locale} defaultLocale = {locale}>
+      <>
       <Header />
       <main className = 'main'>
       <Home />
@@ -24,7 +28,8 @@ const App = () => {
       <Footer />
       <ScrollUp />
       </main>
-    </>
+      </>
+    </IntlProvider>
   )
 }
 
