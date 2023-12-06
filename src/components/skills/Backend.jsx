@@ -12,7 +12,7 @@ export const Backend = () => {
 
                     <div className = 'skills__subdata'>
                         
-                        <h3 className = 'skills__name'> Node.js </h3>
+                        <h3 className = 'skills__name'> NODE JS </h3>
                         <span className = 'skills__level'> Intermediate </span>
                     </div>
                     </div>
@@ -21,7 +21,7 @@ export const Backend = () => {
                     <i className ='bx bx-badge-check'></i>
                     
                     <div className = 'skills__subdata'>
-                        <h3 className = 'skills__name'> MySql </h3>        
+                        <h3 className = 'skills__name'> MYSQL </h3>        
                         <span className = 'skills__level'> Intermediate </span>
                     </div>
                     </div>
@@ -30,7 +30,7 @@ export const Backend = () => {
                     <i className ='bx bx-badge-check' ></i>
                     
                     <div className = 'skills__subdata'>
-                        <h3 className = 'skills__name'> MongoDb </h3>        
+                        <h3 className = 'skills__name'> MONGO DB </h3>        
                         <span className = 'skills__level'> Basic </span>
                     </div>
                     </div>   
@@ -39,7 +39,7 @@ export const Backend = () => {
                     <i className ='bx bx-badge-check'></i>
                     
                     <div className = 'skills__subdata'>
-                        <h3 className = 'skills__name'> Firebase </h3>        
+                        <h3 className = 'skills__name'> FIREBASE </h3>        
                         <span className = 'skills__level'> Basic </span>
                     </div>
                     </div>  

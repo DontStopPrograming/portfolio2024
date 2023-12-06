@@ -13,7 +13,7 @@ export const Frontend = () => {
                     <i className ='bx bx-badge-check' ></i>
 
                     <div>
-                        <h3 className = 'skills__name'> React.js </h3>
+                        <h3 className = 'skills__name'> REACT JS </h3>
                         <span className = 'skills__level'> Intermediate </span>
                     </div>
                     </div>
@@ -22,7 +22,7 @@ export const Frontend = () => {
                     <i className ='bx bx-badge-check' ></i>
 
                     <div>
-                        <h3 className = 'skills__name'> TypeScript </h3>
+                        <h3 className = 'skills__name'> TYPESCRIPT </h3>
                         <span className = 'skills__level'> Intermediate </span>
                     </div>
                     </div>
@@ -31,7 +31,7 @@ export const Frontend = () => {
                     <i className ='bx bx-badge-check' ></i>
 
                     <div>
-                        <h3 className = 'skills__name'> Material UI </h3>
+                        <h3 className = 'skills__name'> MATERIAL UI </h3>
                         <span className = 'skills__level'> Basic </span>
                     </div>
                     </div>
@@ -40,7 +40,7 @@ export const Frontend = () => {
                     <i className ='bx bx-badge-check' ></i>
 
                     <div>
-                        <h3 className = 'skills__name'> Boostrap </h3>
+                        <h3 className = 'skills__name'> BOOSTRAP </h3>
                         <span className = 'skills__level'> Basic </span>
                     </div>
                     </div>
