@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState } from 'react'
 import './header.css'
 import dev from '../../assets/dev.png'
 
@@ -9,9 +9,10 @@ export const Header = () => {
         if(this.scrollY >= 80) header.classList.add('scroll-header')
         else header.classList.remove('scroll-header')
     })
+    
+   
 
-
-    const [Toggle, showMenu] = useState(false)
+    const [ Toggle, showMenu] = useState(false)
     const [ activeNav, setActiveNav ] = useState('#home')
 
   return (
@@ -19,7 +20,7 @@ export const Header = () => {
         <nav className ='nav container'>
             <a href='index.html' className ='nav__logo'> <img src = {dev} className = 'imgDev' /></a>
 
-            <div className = {Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
+          <div className = {Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                 <ul className ='nav__list grid'>
                     
                     <li className ='nav__item'>
@@ -68,7 +69,7 @@ export const Header = () => {
 
                 
             </div>
-
+            
             <div className = 'nav__toggle' onClick = {() => showMenu(!Toggle)}>
                 {Toggle ? 
                     <i className = 'uil uil-times nav__close'> </i>

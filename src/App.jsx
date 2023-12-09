@@ -13,7 +13,8 @@ import { Footer } from './components/footer/Footer'
 import { ScrollUp } from './components/scrollup/ScrollUp'
 const App = () => {
   const locale = 'en'
-  return (
+
+ return (
     <IntlProvider locale = {locale} defaultLocale = {locale}>
       <>
       <Header />

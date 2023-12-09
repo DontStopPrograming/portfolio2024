@@ -1,3 +1,4 @@
+import { FormattedMessage } from 'react-intl'
 
 export const Frontend = () => {
   return (
@@ -13,7 +14,7 @@ export const Frontend = () => {
                     <i className ='bx bx-badge-check' ></i>
 
                     <div>
-                        <h3 className = 'skills__name'> REACT JS </h3>
+                        <h3 className = 'skills__name'> <FormattedMessage id = "react" /> </h3>
                         <span className = 'skills__level'> Intermediate </span>
                     </div>
                     </div>
