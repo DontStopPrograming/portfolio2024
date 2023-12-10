@@ -51,7 +51,7 @@ export const OtherTechnologies = () => {
 
                         <div>
 
-                            <h3 className='skills__name'> Linting </h3>
+                            <h3 className='skills__name'> LINTING </h3>
                             <span className='skills__level'> Intermediate </span>
                         </div>
                     </div>

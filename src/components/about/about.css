@@ -24,10 +24,11 @@
     /* border: 1px solid transparent;
     border-image-slice: 10;
     border-image: linear-gradient(rgb(142, 255, 148), rgb(169, 148, 255)) 1; */
-    
-} 
 
- .about__info .about__box h3, span {
+}
+
+.about__info .about__box h3,
+span {
     padding: 0;
 }
 
@@ -53,7 +54,7 @@
     padding: 0 2rem 0 0;
     margin-bottom: var(--mb-2-5);
     font-size: large;
-    text-align: right;
+    text-align: left;
 }
 
 @media (max-width: 992px) {
