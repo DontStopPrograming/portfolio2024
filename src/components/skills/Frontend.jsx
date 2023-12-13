@@ -7,14 +7,21 @@ export const Frontend = () => {
 
             <div className='skills__box'>
 
-                {/* Framework or library */}
-
                 <div className='skills__group'>
                     <div className='skills__data'>
                         <i className='bx bx-badge-check' ></i>
 
                         <div>
-                            <h3 className='skills__name'> <FormattedMessage id="REACT" /> </h3>
+                            <h3 className='skills__name'> <FormattedMessage id="REACT JS" /> </h3>
+                            <span className='skills__level'> Intermediate </span>
+                        </div>
+                    </div>
+
+                    <div className='skills__data'>
+                        <i className='bx bx-badge-check' ></i>
+
+                        <div>
+                            <h3 className='skills__name'> NEXT JS </h3>
                             <span className='skills__level'> Intermediate </span>
                         </div>
                     </div>

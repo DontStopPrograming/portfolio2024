@@ -1,10 +1,9 @@
-
 .qualification__container {
     max-width: 768px;
-    height: 600px;
+    height: 680px;
     padding: 20px;
     background: #111111;
-    
+
     box-shadow: 0 0 15px 0 rgb(144, 142, 255);
 }
 
@@ -84,13 +83,13 @@
     text-align: left;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
-    
-    
+
+
 }
 
 .qualification__calendar {
     font-size: var(--small-font-size);
-    
+
 }
 
 .qualification__rounder {
@@ -109,7 +108,7 @@
     transform: translate(6px, -7px);
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .qualification__container {
         margin-left: auto;
         margin-right: auto;
@@ -120,7 +119,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .qualification__container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
