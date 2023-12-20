@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-# portfolio2023
+⌨ # portfolio2023
+
+
 This is the new portfolio created with react.js
-=======
+=============================================================================================
 # React + Vite
+=============================================================================================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 15e1ac9 (Many components)
+I try to work with a good components structuring for more details and better logic business. 
