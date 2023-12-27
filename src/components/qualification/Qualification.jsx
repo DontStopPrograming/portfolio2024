@@ -49,15 +49,6 @@ export const Qualification = () => {
                 </div>
 
                 <div>
-                  <h3 className="qualification__title">TECHNICAL INFORMATIC</h3>
-                  <span className="qualification__subtitle">Perú</span>
-                  <div className="qualification__calendar">
-
-                    <i className="uil uil-calendar-alt"></i>  2022 - Institute Amauta
-                  </div>
-                </div>
-
-                <div>
                   <h3 className="qualification__title"> WEB LAYOUT AND PROGRAMING </h3>
                   <span className="qualification__subtitle"> </span>
                   <div className="qualification__calendar">
@@ -72,6 +63,15 @@ export const Qualification = () => {
                   <div className="qualification__calendar">
 
                     <i className="uil uil-calendar-alt"></i>  2022 -  Other Sources
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title">TECHNICAL INFORMATIC</h3>
+                  <span className="qualification__subtitle">Perú</span>
+                  <div className="qualification__calendar">
+
+                    <i className="uil uil-calendar-alt"></i>  2021 - Institute Amauta
                   </div>
                 </div>
 
