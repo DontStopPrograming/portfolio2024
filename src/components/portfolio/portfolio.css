@@ -79,8 +79,12 @@
     .portfolio__box {
         border: 2px solid green;
         text-align: center;
-        width: 100%;
-        height: 500px;
+
+        /* width: 100%;
+        height: 500px; */
+
+        width: 80%;
+        height: 250px;
         padding: 0;
         margin: 0;
         box-sizing: border-box;
