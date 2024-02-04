@@ -212,9 +212,8 @@
     .portfolio__description p {
 
         padding: 0 10%;
-        margin: -10px;
+        margin: -15px;
         width: 80%;
-        font-size: 0.90rem;
         color: #ffffff;
 
 
@@ -224,20 +223,21 @@
         display: flex;
         flex-direction: row;
         padding: 0;
+
     }
 
     .portfolio__title h3 {
-        margin-top: 20px;
+        margin-top: 0;
         margin-left: 20%;
     }
 
     .portfolio__title img {
-        margin-left: 10px;
-
+        margin-left: 0;
+        margin-top: -20px;
     }
 
     .box__photo__first {
-        background-size: 200px;
+        background-size: 180px;
         background-position: center top 10px;
         z-index: 9;
     }
