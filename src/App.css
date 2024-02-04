@@ -6,17 +6,17 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  
+
   /* paragraph  p */
   --paragraph: #ffffff;
 
   /* text color */
-  --text-color: 
+  --text-color:
 
-  /* title */
-  --title-color: rgba(255, 0, 0, 0.445);
+    /* title */
+    --title-color: rgba(255, 0, 0, 0.445);
 
-  
+
   /* title color dark */
   --title-color-dark: #111111;
 
@@ -25,7 +25,7 @@
 
   /* Header Height */
   --header-height: 3rem;
-  
+
   /*Font Typography */
   --body-font: 'Poppins', sans-serif;
 
@@ -33,7 +33,7 @@
   --big-font-size: 3.5rem;
   --h-font-size: 3rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h3-font-size: 1.20rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -64,7 +64,7 @@
 }
 
 /* Responsive typography */
-@media (max-width: 992px){
+@media (max-width: 992px) {
   :root {
     --big-font-size: 2.75rem;
     --h1-font-size: 1.5rem;
@@ -91,12 +91,16 @@ textarea {
 }
 
 
-span, label, div {
+span,
+label,
+div {
   color: var(--paragraph);
-  
+
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   color: rgb(91, 107, 253);
   font-weight: var(--font-semi-bold);
 
@@ -106,8 +110,9 @@ h1,h2,h3 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  
+
 }
+
 ul {
   list-style: none;
   color: rgb(111, 0, 255);
@@ -116,14 +121,14 @@ ul {
 a {
   text-decoration: none;
   color: var(--paragraph);
-  
+
 }
 
 button {
   cursor: pointer;
   border: none;
   outline: none;
-  
+
 }
 
 
@@ -188,8 +193,10 @@ img {
   color: #ffffff;
 
   box-shadow: 0 0 10px 0 rgb(91, 107, 253);
-  
-} .button svg {
+
+}
+
+.button svg {
   width: 20px;
   height: 20px;
 }
@@ -208,13 +215,13 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-  
+
 }
 
 /* ---- BREAKPOINTS */
 
 /* FOR LARGE DEVICES */
-@media (max-width: 992px){
+@media (max-width: 992px) {
   .header {
     z-index: 9;
   }
@@ -227,7 +234,7 @@ img {
   .button {
     width: 150px;
     height: 20px;
-    
+
   }
 
   .button__icon {
@@ -237,7 +244,7 @@ img {
 }
 
 /* FOR MEDIUM DEVICES */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   body {
     margin: 0 0 var(--header-height) 0;
   }
@@ -251,20 +258,17 @@ img {
   }
 }
 
-@media (max-width: 576px){
-
-}
+@media (max-width: 576px) {}
 
 /* FOR SMALL DEVICES */
-@media (max-width: 350px){
+@media (max-width: 350px) {
   :root {
     --big-font-size: 2.25rem;
   }
-  
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
 
 }
-
