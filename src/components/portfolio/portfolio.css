@@ -94,6 +94,12 @@
     height: 40px;
 }
 
+
+.portfolio__title__github:hover img {
+    filter: brightness(1.75);
+    -webkit-filter: brightness(1.75);
+}
+
 /* .portfolio__description img {
 
     margin-left: 20px;
@@ -205,8 +211,8 @@
 
     .portfolio__description p {
 
-        padding: 0 40px;
-        margin: 0;
+        padding: 0 10%;
+        margin: -10px;
         width: 80%;
 
         color: #ffffff;

@@ -30,7 +30,7 @@ export const Portfolio = () => {
           <div className='portfolio__title'>
             <h3> E-commerce Clothes</h3>
             <img src={reactImg} />
-            <img src={gitImg} />
+            <a className='portfolio__title__github' href='https://github.com/DontStopPrograming/e-commerce-clothing'> <img src={gitImg} /> </a>
           </div>
 
           <div className='portfolio__description'>
