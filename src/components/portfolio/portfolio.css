@@ -6,7 +6,8 @@
 }
 
 .portfolio__box {
-    /* flex: 1; */
+
+    overflow: hidden;
 
     background-image: url('');
     background-size: contain;
@@ -21,33 +22,83 @@
 
     box-shadow: 0 0 10px 0 rgb(91, 107, 253);
     z-index: 9;
+
 }
 
-.portfolio__container .portfolio__box .portfolio__image {
-    width: 200px;
-    height: 200px;
+.portfolio__box:hover {
+    opacity: 1;
     z-index: 9;
 }
 
-.portfolio__description img {
-    margin-left: 20px;
 
-    width: 30px;
-    height: 30px;
+.portfolio__container .portfolio__box .portfolio__image {
+
+    width: 200px;
+    height: 200px;
+    z-index: 9;
+
 }
 
 
+.box__photo__first::before {
+
+    z-index: 9;
+}
+
 .box__photo__first {
     background-image: url('../../assets/trend.JPG');
+    z-index: 9;
+}
+
+.portfolio__textHover {
+    display: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    opacity: 90%;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background: black;
+    z-index: 9;
+}
+
+.box__photo__first:hover {
+    display: block;
 
 }
 
 
 .portfolio__box .portfolio__title,
 .portfolio__description {
-    text-align: center;
+    text-align: left;
 
 }
+
+.portfolio__description p {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio__title {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.portfolio__title img {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/* .portfolio__description img {
+
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+
+} */
 
 
 @media (max-width: 992px) {
@@ -102,9 +153,38 @@
     .portfolio__box .portfolio__title,
     .portfolio__description {
         text-align: center;
-        padding: 50px;
+
     }
 
+    .portfolio__description p {
 
+        padding: 0 40px;
+        margin: 0;
+        width: 80%;
+
+        font-size: 1rem;
+        color: #ffffff;
+
+
+    }
+
+    .portfolio__title {
+        display: flex;
+        flex-direction: row;
+        margin-top: -20%;
+        margin-left: 20%;
+
+    }
+
+    .portfolio__title img {
+        margin-left: 10px;
+
+    }
+
+    .box__photo__first {
+        background-size: 200px;
+        background-position: center top 10px;
+        z-index: 9;
+    }
 
 }
