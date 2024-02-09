@@ -35,6 +35,7 @@
 .portfolio__container .portfolio__box .portfolio__image {
     outline: none;
     background: none;
+
     width: 200px;
     height: 200px;
     z-index: 9;
@@ -182,13 +183,13 @@
 
     .portfolio__title__github {
         text-decoration: none;
-        outline: none;
         display: inline-block;
-        background: none;
+
     }
 
     .portfolio__title__github img {
-        background: none;
+        padding: 0;
+        margin: 0;
         border: none;
         outline: none;
     }
