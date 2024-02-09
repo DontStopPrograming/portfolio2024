@@ -74,7 +74,7 @@
 .portfolio__box .portfolio__title,
 .portfolio__description {
     text-align: left;
-    outline: none;
+
 }
 
 .portfolio__description p {
@@ -189,8 +189,7 @@
     }
 
     .portfolio__title__github img {
-        padding: 0;
-        margin: 0;
+
         border: none;
         outline: none;
     }
