@@ -126,6 +126,7 @@ a {
 
 a img {
   outline: none;
+  background: none;
 }
 
 button {
