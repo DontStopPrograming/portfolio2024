@@ -23,6 +23,8 @@
     box-shadow: 0 0 10px 0 rgb(91, 107, 253);
     z-index: 9;
 
+    outline: none;
+
 }
 
 .portfolio__box:hover {
