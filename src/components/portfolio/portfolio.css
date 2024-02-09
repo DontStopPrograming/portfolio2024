@@ -184,6 +184,7 @@
 
     .portfolio__title__github img {
         border: none;
+        outline: none;
     }
 
     .portfolio__container {
