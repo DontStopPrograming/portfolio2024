@@ -74,7 +74,7 @@
 .portfolio__box .portfolio__title,
 .portfolio__description {
     text-align: left;
-
+    outline: none;
 }
 
 .portfolio__description p {
@@ -99,6 +99,7 @@
 
 
 .portfolio__title__github:hover img {
+    outline: none;
     filter: brightness(1.75);
     -webkit-filter: brightness(1.75);
 }
