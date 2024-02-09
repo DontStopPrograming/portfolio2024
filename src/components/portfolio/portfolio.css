@@ -178,6 +178,14 @@
 
 @media (max-width: 768px) {
 
+    .portfolio__title__github {
+        outline: none;
+    }
+
+    .portfolio__title__github img {
+        border: none;
+    }
+
     .portfolio__container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
