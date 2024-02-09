@@ -124,6 +124,10 @@ a {
 
 }
 
+a img {
+  outline: none;
+}
+
 button {
   cursor: pointer;
   border: none;
