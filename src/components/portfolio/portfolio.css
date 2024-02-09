@@ -182,6 +182,12 @@
 
 @media (max-width: 768px) {
 
+    .portfolio__title__github:hover img {
+        outline: initial;
+        filter: none;
+        -webkit-filter: none;
+    }
+
     .portfolio__title__github {
         text-decoration: none;
         display: inline-block;
