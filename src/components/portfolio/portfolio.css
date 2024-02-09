@@ -179,7 +179,9 @@
 @media (max-width: 768px) {
 
     .portfolio__title__github {
+        text-decoration: none;
         outline: none;
+        display: inline-block;
     }
 
     .portfolio__title__github img {
