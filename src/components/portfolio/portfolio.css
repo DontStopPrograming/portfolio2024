@@ -191,6 +191,7 @@
     .portfolio__title__github {
         text-decoration: none;
         display: inline-block;
+        overflow: hidden;
 
     }
 
