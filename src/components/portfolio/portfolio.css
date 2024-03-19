@@ -32,9 +32,8 @@
 }
 
 .portfolio__image {
-    outline: none;
-    background: none !important;
 
+    display: inline-block;
 }
 
 .portfolio__container .portfolio__box .portfolio__image {
