@@ -1,7 +1,7 @@
 
 import './about.css'
 import AboutImg from '../../assets/profile.jpg'
-import CV from '../../assets/curriculum.pdf'
+import CV from '../../assets/docWebDev.pdf'
 import { Infor } from './Infor'
 
 export const About = () => {
