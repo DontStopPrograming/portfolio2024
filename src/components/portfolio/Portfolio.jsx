@@ -34,7 +34,7 @@ export const Portfolio = () => {
           </div>
 
           <div className='portfolio__description'>
-            <p> Trend, web application for the sale of fashion clothing. For now made with React.js technology </p>
+            <p> Trend, web application for the sale of fashion clothing. For now made with React.js technology (Project underway) </p>
 
           </div>
 
