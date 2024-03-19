@@ -42,7 +42,7 @@ export const Qualification = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title"> CURRENTLY </h3>
-                  <span className="qualification__subtitle"> Currently I interested in creating new projectsworking with a good company, as well as searching for new clients </span>
+                  <span className="qualification__subtitle"> I interested in creating new projects working with a good company, as well as searching for new clients. </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> 2024 - Jobseeker/Freelance
                   </div>
@@ -54,7 +54,7 @@ export const Qualification = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title"> CI EIRL </h3>
-                  <span className="qualification__subtitle"> Handling of the creation of the customers database with Mysql, collaboration of analysis for the implementation of javascript code for the new project for clients, php connection with the database </span>
+                  <span className="qualification__subtitle"> Managing customer database creation with MySQL Collaborating on JavaScript code analysis for new project PHP database connection. </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> 2021 - Trainee
                   </div>
@@ -87,7 +87,7 @@ export const Qualification = () => {
                   <span className="qualification__subtitle"></span>
                   <div className="qualification__calendar">
 
-                    <i className="uil uil-calendar-alt"></i>  2023 - Plazti, EDTeam, Codigo Facilito and Other Sources
+                    <i className="uil uil-calendar-alt"></i>  2023 - Plazti, EDTeam, Codigo Facilito and Other Sources.
                   </div>
                 </div>
 
@@ -96,7 +96,7 @@ export const Qualification = () => {
                   <span className="qualification__subtitle"> </span>
                   <div className="qualification__calendar">
 
-                    <i className="uil uil-calendar-alt"></i>  2022 - FreeCodeCamp
+                    <i className="uil uil-calendar-alt"></i>  2022 - FreeCodeCamp.
                   </div>
                 </div>
 
@@ -105,16 +105,16 @@ export const Qualification = () => {
                   <span className="qualification__subtitle">  </span>
                   <div className="qualification__calendar">
 
-                    <i className="uil uil-calendar-alt"></i>  2022 -  Other Sources
+                    <i className="uil uil-calendar-alt"></i>  2022 -  Other Sources.
                   </div>
                 </div>
 
                 <div>
                   <h3 className="qualification__title">TECHNICAL INFORMATIC</h3>
-                  <span className="qualification__subtitle">Perú</span>
+                  <span className="qualification__subtitle"></span>
                   <div className="qualification__calendar">
 
-                    <i className="uil uil-calendar-alt"></i>  2021 - Institute Amauta
+                    <i className="uil uil-calendar-alt"></i>  2021 - Institute Amauta.
                   </div>
                 </div>
 
