@@ -16,7 +16,7 @@ export const About = () => {
           <div className='about__data'>
             <Infor />
             <p className='about__description'>
-              I'm in Lima, Peru. Fascination with video games sparked my tech journey. Obtained my degree in Informatics in 11/2021. Searching for thecnology opportunities to add value.
+              Im in Lima, Peru. Fascination with video games sparked my tech journey. Obtained my degree in Informatics in 11/2021. Searching for technology opportunities to add value.
             </p>
 
             <a download='' href={CV} className='button button--flex'>
