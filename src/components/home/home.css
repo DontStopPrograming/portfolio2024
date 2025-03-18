@@ -1,11 +1,11 @@
 .home__container {
     row-gap: 7rem;
-    
+
 }
 
 .imgCharge {
     border-radius: 50%;
-    
+
 }
 
 .home__content {
@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
-    
+
 }
 
 .home__social-icon {
@@ -67,8 +67,8 @@
 .home__description {
     max-width: 400px;
     font-size: large;
-    margin-bottom: var(--mb-3); 
-    color: #ffffff;                                                                                                                                                                                
+    margin-bottom: var(--mb-3);
+    color: #ffffff;
 }
 
 .home__img {
@@ -97,12 +97,12 @@
     }
 } */
 
- .home__scroll {
+.home__scroll {
     margin-left: 9.25rem;
-} 
+}
 
-.home__scroll a:hover{
-    color:rgb(115, 255, 0);
+.home__scroll a:hover {
+    color: rgb(115, 255, 0);
 }
 
 .wheel {
@@ -110,9 +110,10 @@
 }
 
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateY(0);
     }
+
     30% {
         transform: translateY(3.75rem);
     }
@@ -134,7 +135,7 @@
     margin-left: 7.5rem;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
@@ -163,11 +164,11 @@
     .home__img {
         width: 250px;
         height: 250px;
-        
+
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .home__content {
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
@@ -176,7 +177,7 @@
     .home__img {
         order: initial;
         justify-self: initial;
-        
+
     }
 
     .home__data {
@@ -189,20 +190,18 @@
     }
 }
 
-@media (max-width: 576px){
-    .home__container {
-
-    }
+@media (max-width: 576px) {
+    .home__container {}
 }
 
-@media (max-width: 350px){
-   .home__img {
-    width: 180px;
-    height: 180px;
-   }
+@media (max-width: 350px) {
+    .home__img {
+        width: 180px;
+        height: 180px;
+    }
 
-   .home__hand {
-    width: 22px;
-    height: 22px;
-   }
+    .home__hand {
+        width: 22px;
+        height: 22px;
+    }
 }
